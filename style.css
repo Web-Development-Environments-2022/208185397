@@ -1,7 +1,47 @@
 #menu
 {
 	position: fixed;
+	overflow: hidden;
+	top: 0;
 	width: 100%;
-	height: 35px;
 	background: white;
+}
+h1 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid aqua; 
+    line-height: 0.1em;
+    background-color:aqua;
+    margin: 10px 0 20px; 
+ } 
+ h1 span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+nav{
+   background-color: red;
+   text-align: center;
+   width:900px ;
+   height: 260px;
+   float: left;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+	display: block;
+
+    text-align:center;
+    background-color: aqua;
+}
+
+h2{
+	text-align: center;
+	font-size: medium;
+}
+h3{
+	background-color:blue;
+	float: left;
+	width:650px;
+	height:457px;
 }
